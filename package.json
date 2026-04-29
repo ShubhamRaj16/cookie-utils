@@ -1,0 +1,23 @@
+{
+  "name": "@ShubhamRaj16/cookie-utils",
+  "version": "1.0.0",
+  "description": "A utility to get and set data from cookies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShubhamRaj16/cookie-utils.git"
+  },
+  "keywords": ["cookie", "utils"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
